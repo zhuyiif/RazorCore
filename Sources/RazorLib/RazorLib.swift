@@ -7,7 +7,7 @@ public class RazorLib {
     ///   - hexString: e.g. #FF0000
     ///   - alpha: alpha value
     /// - Returns: UIColor
-    class func colorFromHexString(_ hexString: String, alpha: CGFloat = 1.0) -> UIColor {
+    public class func colorFromHexString(_ hexString: String, alpha: CGFloat = 1.0) -> UIColor {
         let r, g, b: CGFloat
         let offset = hexString.hasPrefix("#") ? 1 : 0
         let start = hexString.index(hexString.startIndex, offsetBy: offset)
