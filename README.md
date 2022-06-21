@@ -1,2 +1,3 @@
-# RazorCore
-framework which reuse code
+# RazorLib
+
+A description of this package.
